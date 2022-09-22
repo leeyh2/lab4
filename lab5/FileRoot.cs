@@ -1,9 +1,9 @@
 ﻿using System;
-namespace lab5
+namespace lab4
 {
     public class FileRoot
     {
-        public static string projectRoot = Directory.GetParent(Directory.GetCurrentDirectory()).Parent.Parent.ToString();
+        public static string fileRoot = Directory.GetParent(Directory.GetCurrentDirectory()).Parent.Parent.ToString();
     }
 }
 
